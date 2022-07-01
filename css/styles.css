@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'roslindale_display_condenseBd';
+    src: url('../fonts/roslindaledisplaycondensed-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roslindaledisplaycondensed-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'lane_-_narrowregular';
+    src: url('../fonts/lanenar_-webfont.woff2') format('woff2'),
+         url('../fonts/lanenar_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Work+Sans:wght@200&display=swap');
+
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #F6DD8B;
+}
+
+
+.header {
+    width:100%;
+    background-color: #F6DD8B;
+}
+
+.navbar {
+    /* position: absolute; */
+    top: 0px;
+    width: 100%;
+  }
+
+.bg {
+    background-image:url('../images/heros/tdt_hero1.png');
+    height:92vh;
+    position:relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hidden {
+    display:none;
+}
+
+.logoTdt {
+    width:70px;
+    height:auto;
+}
+
+nav .navbar-nav li a{
+    color: #6F4D1D !important;
+    margin-right:20px;
+    }
+
+    nav .navbar-nav li a:hover{
+        color: #6F4D1D !important;
+    }
+
+
+.btn-outline {
+    color: #929043;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(146, 144, 67);
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+
+  .btn-outline:hover {
+    color: #6F4D1D;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+
+.container{
+    text-align: center;
+    padding:30px;
+    margin-top:20%;
+    margin-left: 50%;
+    width:1200px;
+    background:transparent;
+    /* background-color: rgba(255,255,255,.05); */
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size:7rem;
+    color: #F6DD8B;
+    font-family: 'roslindale_display_condenseBd', 'Cormorant Garamond', serif;
+    margin:10px 0px;
+    line-height: 7rem;
+    font-weight: 900;
+}
+
+h2{
+    color: #F6DD8B;
+    font-family: 'lane_-_narrowregular', 'Work Sans', sans-serif;;
+    font-size:2rem;
+    letter-spacing: .2rem;
+    margin:2px 0px 20px 0px;
+    font-weight: 200;
+}
+
+.hero-image{
+    position:relative;
+    width:100%;
+    height:auto;
+    text-align:center;
+    background: url("../images/heros/Foto_index2.png");
+    background-size:cover;
+    background-repeat: no repeat;
+}
+
+.hero-image::before{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background: rgba(0, 0, 0, .1)
+}
+
+.hero-content{
+    position:relative;
+    width:60%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #F6DD8B;
+    border: none;
+    color: #929043;
+}
+
+.btn:hover {
+    background-color: #F6DD8B;
+    border: none;
+    color: #929043;
+}
+
+.contactoH{
+    color:#6F4D1D;
+    display:flex;
+    justify-content: center;
+}
