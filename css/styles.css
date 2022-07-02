@@ -177,4 +177,7 @@ h2{
         flex-wrap: wrap;
         margin: 0 5px;
     }
+    #cardsIndex .card{
+        margin: 10px;
+    }
 }
